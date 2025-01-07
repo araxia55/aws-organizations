@@ -1,0 +1,32 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build output if any
+dist/
+build/
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore environment variable files
+.env
+.env.local
+
+# Ignore AWS credentials
+.aws/
+
+# Ignore Org-Formation state files
+.state/
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+# Ignore OS specific files
+.DS_Store
+Thumbs.db
