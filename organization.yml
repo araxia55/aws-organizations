@@ -33,11 +33,11 @@ Organization:
     Properties:
       Alias: test-account-1-5577CC
       AccountName: Test Account 1
-      RootEmail: riyoko.kimura+test1@proton.me
+      RootEmail: smash.daybreak112@passinbox.com
   
   ProductionAccount1:
     Type: OC::ORG::Account
     Properties:
       Alias: prod-account-1-5577CC
       AccountName: Production Account 1
-      RootEmail: ${{ secrets.PROD_EMAIL_ACCOUNT01 }}
+      RootEmail: koriyo.schnapps525@passinbox.com
