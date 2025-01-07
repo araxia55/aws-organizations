@@ -33,11 +33,11 @@ Organization:
     Properties:
       Alias: test-account-1-5577CC
       AccountName: Test Account 1
-      RootEmail: raymund.herradura.nz+test-account-1@gmail.com
+      RootEmail: {{ secrets.TEST_ACCOUNT_1_EMAIL}}
   
   ProductionAccount1:
     Type: OC::ORG::Account
     Properties:
       Alias: prod-account-1-5577CC
       AccountName: Production Account 1
-      RootEmail: raymund.herradura.nz+prod-account-1@gmail.com
+      RootEmail: {{ secrets.PROD_ACCOUNT_1_EMAIL }}
