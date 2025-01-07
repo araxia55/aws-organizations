@@ -3,7 +3,7 @@ name: Deploy AWS Organizations 🏭
 on:
     push:
         branches:
-            - main
+            - master
 
 jobs:
     deploy:
