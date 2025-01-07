@@ -14,4 +14,30 @@ Organization:
     Properties:
       DefaultOrganizationAccessRoleName: OrganizationAccountAccessRole
 
+  ProductionOU:
+    Type: OC::ORG::OrganizationalUnit
+    Properties:
+      OrganizationalUnitName: production
+      Accounts: 
+        - Ref: ProductionAccount1
 
+  TestOU:
+     Type: OC::ORG::OrganizationalUnit
+     Properties:
+      OrganizationalUnitName: test
+      Accounts: 
+        - Ref: TestAccount1
+
+  TestAccount1:
+    Type: OC::ORG::Account
+    Properties:
+      Alias: test-account-1-5577CC
+      AccountName: Test Account 1
+      RootEmail: raymund.herradura.nz+test-account-1@gmail.com
+  
+  ProductionAccount1:
+    Type: OC::ORG::Account
+    Properties:
+      Alias: prod-account-1-5577CC
+      AccountName: Production Account 1
+      RootEmail: raymund.herradura.nz+prod-account-1@gmail.com
