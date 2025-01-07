@@ -1,4 +1,6 @@
 name: Deploy AWS Organizations 🏭
+
+run-name: ${{ github.actor }} has pushed changes to ${{ github.event.ref }}
  
 on:
     push:
@@ -25,7 +27,7 @@ jobs:
     
           - name: Deploy with OrgFormation ☁️
             run: | 
-              org-formation update organization.yml
+              org-formation update organization.yml --print-stack --verbose
               env:
                 AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ORG_ACCESS_KEY_ID }}
                 AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_ORG_SECRET_ACCESS_KEY }}
