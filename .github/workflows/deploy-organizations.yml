@@ -24,7 +24,9 @@ jobs:
             run: npm install -g aws-organization-formation
     
           - name: Deploy with OrgFormation ☁️
-            run: org-formation update aws-organizations/organization.yml
-            env:
-              AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ORG_ACCESS_KEY_ID }}
-              AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_ORG_SECRET_ACCESS_KEY }}
+            run: | 
+              cd aws-organizations/ &&
+              org-formation update aws-organizations/organization.yml
+              env:
+                AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ORG_ACCESS_KEY_ID }}
+                AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_ORG_SECRET_ACCESS_KEY }}
