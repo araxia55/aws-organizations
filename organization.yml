@@ -33,7 +33,7 @@ Organization:
     Properties:
       Alias: test-account-1-5577CC
       AccountName: Test Account 1
-      RootEmail: ${{ secrets.TEST_EMAIL_ACCOUNT01 }}
+      RootEmail: riyoko.kimura+test1@proton.me
   
   ProductionAccount1:
     Type: OC::ORG::Account
