@@ -33,11 +33,11 @@ Organization:
     Properties:
       Alias: test-account-1-5577CC
       AccountName: Test Account 1
-      RootEmail: {{ secrets.TEST_ACCOUNT_1_EMAIL}}
+      RootEmail: {{ secrets.TEST_EMAIL_ACCOUNT01 }}
   
   ProductionAccount1:
     Type: OC::ORG::Account
     Properties:
       Alias: prod-account-1-5577CC
       AccountName: Production Account 1
-      RootEmail: {{ secrets.PROD_ACCOUNT_1_EMAIL }}
+      RootEmail: {{ secrets.PROD_EMAIL_ACCOUNT01 }}
