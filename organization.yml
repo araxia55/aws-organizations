@@ -7,7 +7,7 @@ Organization:
     Properties:
       AccountName: ganbatte
       AccountId: '897722709367'
-      RootEmail: {{ secrets.ROOT_EMAIL}}
+      RootEmail: ${{ secrets.ROOT_EMAIL}}
 
   OrganizationRoot:
     Type: OC::ORG::OrganizationRoot
