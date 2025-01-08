@@ -8,7 +8,7 @@ on:
             - master
 
 jobs:
-    Org_Formation_Deployment :
+    OrgFormation_Deployment :
         runs-on: ubuntu-latest
 
         steps:
