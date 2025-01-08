@@ -2,6 +2,8 @@
 
 This repository contains information and resources related to AWS Organizations utilising [org-formation](https://github.com/org-formation/org-formation-cli).
 
+![Org-Formation Automation Architecture](./assets/aws-organizations.png)
+
 ## Overview
 
 AWS Organizations is a service that helps you centrally manage and govern your environment as you grow and scale your AWS resources. With Organizations, you can create accounts, organize them in hierarchies, apply policies, and automate account creation and management. 
@@ -17,11 +19,12 @@ AWS Organizations is a service that helps you centrally manage and govern your e
     - [deployment #1](https://github.com/araxia55/aws-organizations/actions/runs/12660852517/job/35282889105)
 
 ## Prerequisite
-1. Install [`aws-cli`](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html).
-2. Create an administrator account (don't use your *root* account) 
+1. Clone this repository.
+2. Install [`aws-cli`](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html).
+3. Create an administrator account (don't use your *root* account) 
    - Grant `AdministratorAccess` Policy
-3. Setup aws credentials `~/.aws/credentials` in your `aws-cli` for the administrator account.
-4. Install `org-formation`.
+4. Setup aws credentials `~/.aws/credentials` in your `aws-cli` for the administrator account.
+5. Install `org-formation`.
 - `npm install -g aws-organization-formation`
 
 ## Quick Start Guide
