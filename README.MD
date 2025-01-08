@@ -13,9 +13,11 @@ AWS Organizations is a service that helps you centrally manage and govern your e
 - **Automated Account Creation**: Automate the creation and management of AWS accounts via a workflow pipeline: `deployment-organizations.yml`
 - **Consolidated Billing**: Combine billing for multiple accounts.
 - **Automated Account Management**: When `organization.yml` is pushed to master a workflow pipeline will trigger to automate the deployment process.
+- **Sample Org-formation Automated Deployment**:
+    - [deployment #1](https://github.com/araxia55/aws-organizations/actions/runs/12660852517/job/35282889105)
 
 ## Prerequisite
-1. Install [`aws-cli`](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+1. Install [`aws-cli`](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html).
 2. Create an administrator account (don't use your *root* account) 
    - Grant `AdministratorAccess` Policy
 3. Setup aws credentials `~/.aws/credentials` in your `aws-cli` for the administrator account.
