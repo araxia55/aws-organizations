@@ -6,7 +6,7 @@ This repository contains information and resources related to AWS Organizations 
 
 ## Overview
 
-AWS Organizations is a service that helps you centrally manage and govern your environment as you grow and scale your AWS resources. With Organizations, you can create accounts, organize them in hierarchies, apply policies, and automate account creation and management. 
+AWS Organizations is a service that helps you centrally manage and govern your environment as you grow and scale your AWS resources. With `org-formation`, you can create accounts, organize them in hierarchies, apply policies, and automate account creation and management. 
 
 ## Features
 
