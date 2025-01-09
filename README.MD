@@ -21,9 +21,9 @@ AWS Organizations is a service that helps you centrally manage and govern your e
 ## Prerequisite
 1. Clone this repository.
 2. Install [`aws-cli`](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html).
-3. Create an administrator account (don't use your *root* account) 
+3. Create an administrator account in the console (don't use your *root* account).
    - Grant `AdministratorAccess` Policy
-4. Setup aws credentials `~/.aws/credentials` in your `aws-cli` for the administrator account.
+4. Setup `aws configure` with the Administrator keys.
 5. Install `org-formation`.
 - `npm install -g aws-organization-formation`
 
