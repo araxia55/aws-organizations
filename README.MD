@@ -52,7 +52,7 @@ To get started with AWS Organizations utilising `org-formation`, follow these st
             Type: OC::ORG::MasterAccount
             Properties:
             AccountName: ganbatte
-            AccountId: '897722709367'
+            AccountId: '******'
             RootEmail: ${{ secrets.ROOT_EMAIL }}
         &nbsp;
         OrganizationRoot:
