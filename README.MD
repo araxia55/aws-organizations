@@ -94,6 +94,6 @@ To get started with AWS Organizations utilising `org-formation`, follow these st
 - Use an email alias service so all the `RootEmail` specified are just an alias to the real account.
 
 ## Documentation
-
+- Checkout my blog post [here](https://www.raymund.cloud/post/org-formation/).
 - For detailed documentation, visit the [AWS Organizations Documentation](https://docs.aws.amazon.com/organizations/).
 - Awesome AWS three-part [blog](https://aws.amazon.com/blogs/opensource/managing-aws-organizations-using-the-open-source-org-formation-tool-part-1/) on `org-formation`.
